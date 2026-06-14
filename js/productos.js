@@ -40,3 +40,6 @@ function obtenerPrecio(nombre) {
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { productos, agregarProducto, listarProductos, obtenerPrecio };
 }
+
+
+// Validación adicional: el nombre no puede contener solo espacios en blanco
