@@ -5,7 +5,7 @@
 Sistema de gestión de ventas desarrollado con **HTML5, CSS3 y JavaScript**, como parte del Producto Académico N° 2, implementando control de versiones con Git y GitHub siguiendo el flujo GitFlow, con CI/CD mediante GitHub Actions.
 
 ## 👥 Integrantes
-- Jean Marko P.V. (Líder) — Módulo de Productos (`js/productos.js`)
+- Jean P.V. (Líder) — Módulo de Productos (`js/productos.js`)
 - Integrante 2 — Módulo de Ventas (`js/ventas.js`)
 - Integrante 3 — Módulo de Reportes (`js/reportes.js`)
 
