@@ -1,5 +1,5 @@
 # 🛒 Gestor de Ventas - UC
-**Construcción de Software | Universidad Andina del Cusco**
+**Construcción de Software | Universidad Continental**
 
 ## 📌 Descripción
 Sistema de gestión de ventas desarrollado con **HTML5, CSS3 y JavaScript**, como parte del Producto Académico N° 2, implementando control de versiones con Git y GitHub siguiendo el flujo GitFlow, con CI/CD mediante GitHub Actions.
