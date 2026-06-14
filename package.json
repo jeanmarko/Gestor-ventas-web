@@ -1,0 +1,12 @@
+{
+  "name": "gestor-ventas",
+  "version": "1.0.0",
+  "description": "Gestor de Ventas - Producto Academico N2 - Construccion de Software UAC",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

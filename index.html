@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Ventas - UAC</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🛒 Gestor de Ventas</h1>
+    <p>Universidad Continental — Construcción de Software</p>
+  </header>
+
+  <main>
+
+    <!-- ==================== MÓDULO 1: PRODUCTOS ==================== -->
+    <section class="card">
+      <h2>📦 Registrar Producto</h2>
+      <form id="form-producto">
+        <input type="text" id="nombre-producto" placeholder="Nombre del producto" required>
+        <input type="number" id="precio-producto" placeholder="Precio (S/.)" min="0.01" step="0.01" required>
+        <button type="submit">Agregar producto</button>
+      </form>
+      <p id="msg-producto" class="msg"></p>
+
+      <table id="tabla-productos">
+        <thead>
+          <tr><th>Producto</th><th>Precio (S/.)</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <!-- ==================== MÓDULO 2: VENTAS ==================== -->
+    <section class="card">
+      <h2>💰 Registrar Venta</h2>
+      <form id="form-venta">
+        <select id="select-producto" required>
+          <option value="">-- Seleccione un producto --</option>
+        </select>
+        <input type="number" id="cantidad-venta" placeholder="Cantidad" min="1" step="1" required>
+        <button type="submit">Registrar venta</button>
+      </form>
+      <p id="msg-venta" class="msg"></p>
+    </section>
+
+    <!-- ==================== MÓDULO 3: REPORTES ==================== -->
+    <section class="card">
+      <h2>📋 Historial de Ventas</h2>
+      <table id="tabla-ventas">
+        <thead>
+          <tr><th>#</th><th>Producto</th><th>Cantidad</th><th>Precio Unit.</th><th>Total</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <h2>📊 Reporte General</h2>
+      <div id="reporte" class="reporte-box">
+        <p>Total de transacciones: <span id="rep-transacciones">0</span></p>
+        <p>Ingresos totales: S/. <span id="rep-ingresos">0.00</span></p>
+        <p>Producto más vendido: <span id="rep-producto">-</span></p>
+        <p>Mayor venta individual: S/. <span id="rep-mayor">0.00</span></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Producto Académico N°2 — Gestión de Ventas con Git/GitHub/GitFlow/CI-CD</p>
+  </footer>
+
+  <script src="js/productos.js"></script>
+  <script src="js/ventas.js"></script>
+  <script src="js/reportes.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
