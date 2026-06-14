@@ -1,4 +1,4 @@
-# 🛒 Gestor de Ventas - UAC
+# 🛒 Gestor de Ventas - UC
 **Construcción de Software | Universidad Continental**
 
 ## 📌 Descripción
